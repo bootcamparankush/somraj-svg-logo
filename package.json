@@ -1,0 +1,24 @@
+{
+  "name": "somraj-svg-logo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bootcamparankush/somraj-svg-logo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bootcamparankush/somraj-svg-logo/issues"
+  },
+  "homepage": "https://github.com/bootcamparankush/somraj-svg-logo#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.5"
+  }
+}
