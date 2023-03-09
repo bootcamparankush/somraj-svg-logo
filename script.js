@@ -30,7 +30,7 @@ inquirer
   .then((answers) => {
     let shapeContent;
     if (answers.shape === 'circle') {
-      shapeContent = `<circle cx="150" cy="100" r="50" fill="none" stroke-width="3" stroke="${answers.shapeColor}" />`;
+      shapeContent = `<circle cx="150" cy="100" r="80" fill="none" stroke-width="3" stroke="${answers.shapeColor}" />`;
     } else if (answers.shape === 'triangle') {
       shapeContent = `<polygon points="150,20 280,180 20,180" fill="none" stroke-width="3" stroke="${answers.shapeColor}" />`;
     } else {
@@ -38,21 +38,21 @@ inquirer
     }
 
 const svgContent = `
-  <svg width="300" height="200">
-    <rect x="0" y="0" width="900" height="600" fill="gray" />
-    <text x="50%" y="50%" text-anchor="middle" fill="${answers.textColor}">${answers.text}</text>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="300" height="200">
+    <rect x="10" y="10" width="300" height="200" fill="gray" />
+    <text x="150" y="125" font-size="60" text-anchor="middle" fill="${answers.textColor}">${answers.text}</text>
     ${shapeContent}
   </svg>
 `;
 
 
 
-    fs.writeFile('./lib/output.html', svgContent, (err) => {
+    fs.writeFile('./lib/logo.svg', svgContent, (err) => {
       if (err) {
         console.error(err);
         return;
       }
-      console.log('File created successfully!');
+      console.log('Generated log.svg file successfully!');
     });
   })
   .catch((error) => {
