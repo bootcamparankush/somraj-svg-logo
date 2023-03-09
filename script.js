@@ -39,13 +39,15 @@ inquirer
 
 const svgContent = `
   <svg width="300" height="200">
-    <rect x="0" y="0" width="300" height="200" fill="${answers.shapeColor}" />
+    <rect x="0" y="0" width="900" height="600" fill="gray" />
     <text x="50%" y="50%" text-anchor="middle" fill="${answers.textColor}">${answers.text}</text>
     ${shapeContent}
   </svg>
 `;
 
-    fs.writeFile('output.html', svgContent, (err) => {
+
+
+    fs.writeFile('./lib/output.html', svgContent, (err) => {
       if (err) {
         console.error(err);
         return;
