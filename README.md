@@ -14,7 +14,8 @@
   * [Credits](#credits)
 
   ## Description
-  he application prompts the user to select a color and shape, provide text for the logo, and save the generated SVG to a `.svg` file.
+  The application prompts the user to select a color and shape, provide text for the logo, and save the generated SVG to a `.svg` file.
+  Link to the recorded version of working application https://youtu.be/MVGXvBUuR74
 
   ## Installation
   When the script.js is executed on the command   line entern   prompts  such a selecting   text of the loggoo, color of the log etc. once the information is entereted svg logo is genrater d badsed on the pomtpsts answereed
