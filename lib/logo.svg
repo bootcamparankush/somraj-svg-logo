@@ -1,6 +1,6 @@
 
   <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="300" height="200">
-    <rect x="10" y="10" width="300" height="200" fill="gray" />
-    <text x="150" y="125" font-size="60" text-anchor="middle" fill="White">SVG</text>
-    <circle cx="150" cy="100" r="80" fill="none" stroke-width="3" stroke="Pink" />
+    <rect x="10" y="10" width="300" height="200" fill="darkgrey" />
+    <text x="150" y="125" font-size="60" text-anchor="middle" fill="Orange">SVG</text>
+    <rect x="75" y="50" width="150" height="100" fill="none" stroke-width="3" stroke="Black" />
   </svg>

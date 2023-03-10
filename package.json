@@ -19,7 +19,13 @@
   "homepage": "https://github.com/bootcamparankush/somraj-svg-logo#readme",
   "dependencies": {
     "fs": "^0.0.1-security",
-    "inquirer": "^8.2.5",
+    "inquirer": "^8.2.5"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {
     "jest": "^29.5.0"
   }
 }

@@ -39,7 +39,7 @@ inquirer
 
 const svgContent = `
   <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="300" height="200">
-    <rect x="10" y="10" width="300" height="200" fill="gray" />
+    <rect x="10" y="10" width="300" height="200" fill="darkgrey" />
     <text x="150" y="125" font-size="60" text-anchor="middle" fill="${answers.textColor}">${answers.text}</text>
     ${shapeContent}
   </svg>
@@ -52,7 +52,7 @@ const svgContent = `
         console.error(err);
         return;
       }
-      console.log('Generated log.svg file successfully!');
+      console.log('Generated logo.svg file successfully!');
     });
   })
   .catch((error) => {
